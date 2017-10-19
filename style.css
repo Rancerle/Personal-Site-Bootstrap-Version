@@ -1,3 +1,8 @@
 .js-scroll-trigger img{
   width: 30%;
 }
+
+.img-fluid-top{
+  border-radius: 50%;
+  width: 25%;
+}
