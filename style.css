@@ -18,3 +18,7 @@
 .img-fluid{
   height: 15%;
 }
+
+.modal-dialog{
+  height: 100 vh;
+}
