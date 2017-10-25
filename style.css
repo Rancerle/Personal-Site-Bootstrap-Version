@@ -19,6 +19,23 @@
   height: 15%;
 }
 
-.modal-dialog{
-  height: 100 vh;
+.modal-body{
+  height: vmax;
 }
+
+hr.star-light .star-top{
+  max-width: 250px;
+  margin: 25px auto 30px;
+  padding: 0;
+  text-align: center;
+  border: none;
+  border-top: solid 5px; }
+
+hr.star-light .star-top:after{
+  font-family: FontAwesome;
+  font-size: 2em;
+  position: relative;
+  top: -.8em;
+  display: inline-block;
+  padding: 0 0.25em;
+  content: '\f001'; }
