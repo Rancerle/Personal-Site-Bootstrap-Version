@@ -21,7 +21,7 @@ b{
   height: 24px;
 }
 
-span{
+span.skills{
 position: relative;
 white-space: nowrap;
 -webkit-animation: move 5s;
