@@ -16,6 +16,25 @@ body{
   height: 100px;
 }
 
+b{
+  overflow: hidden;
+  height: 24px;
+}
+
+span{
+position: relative;
+white-space: nowrap;
+-webkit-animation: move 5s;
+-webkit-animation-iteration-count: infinite;
+-webkit-animation-delay: 1s;
+}
+
+@keyframes move {
+0%  { top: 0px; }
+33% { top: -34px; }
+66% { top: -68px; }
+}
+
 svg {
     display: block;
     font: 10.5em 'Montserrat';
