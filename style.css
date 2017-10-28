@@ -16,26 +16,6 @@ body{
   height: 100px;
 }
 
-b{
-  position: static;
-  overflow: hidden;
-  height: 24px;
-}
-
-span.skills{
-position: relative;
-white-space: nowrap;
--webkit-animation: move 5s;
--webkit-animation-iteration-count: infinite;
--webkit-animation-delay: 1s;
-}
-
-@keyframes move {
-0%  { top: 0px; }
-33% { top: -34px; }
-66% { top: -68px; }
-}
-
 svg {
     display: block;
     font: 10.5em 'Montserrat';
@@ -181,3 +161,15 @@ hr.star-primary.star-mail:after{
   padding: 0 0.25em;
   content: '\f003';
 }
+
+.btn.btn-lg.btn-outline.res{
+  font-weight: 700;
+  color: white;
+  border-color: #18BC9C;
+  background-color: #18BC9C;
+}
+
+.btn.btn-lg.btn-outline.res:hover {
+  color: white;
+  border-color: #11866f;
+  background-color: #128f76; }
