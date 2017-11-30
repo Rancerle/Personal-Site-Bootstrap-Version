@@ -25,7 +25,7 @@ svg {
 }
 
 .masthead .container{
-  background-image: url("ma_fav.jpg");
+  background-image: url("color_shot.jpg");
   border-radius: 12px;
   border: solid black 2px;
   background-size: cover;
@@ -42,27 +42,27 @@ svg {
 }
 
 .text-copy:nth-child(1){
-    stroke: #18bc9c;
+    stroke: #ff0000;
 	animation-delay: -1;
 }
 
 .text-copy:nth-child(2){
-	stroke: #2C3E50;
+	stroke: #00ffff;
 	animation-delay: -2s;
 }
 
 .text-copy:nth-child(3){
-	stroke: #18bc9c;
+	stroke: #51484F;
 	animation-delay: -3s;
 }
 
 .text-copy:nth-child(4){
-	stroke: #white;
+	stroke: #ff0000;
 	animation-delay: -4s;
 }
 
 .text-copy:nth-child(5){
-	stroke: #2C3E50;
+	stroke: #51484F;
 	animation-delay: -5s;
 }
 

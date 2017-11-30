@@ -1,0 +1,26 @@
+#portfolio.portfolio-item:hover,
+section#about.success, hr.star-light.star-me::after, .footer-above, .footer-below{
+  background: #51484F;
+}
+
+nav#mainNav.navbar.navbar-expand-lg.navbar-light.fixed-top{
+  background: black;
+}
+
+header.masthead, hr.star-light.star-top::after, #mainNav .navbar-nav > li.nav-item > a.nav-link.active {
+  background: #ff0000;
+}
+
+section#portfolio, hr.star-primary.star-port::after, section#contact,
+hr.star-primary.star-mail::after{
+  background: #00ffff;
+}
+
+#mainNav .navbar-nav li.nav-item a.nav-link:hover {
+    color: #ff0000;
+}
+
+.btn-success{
+  border-color: #ff0000;
+  background: #ff0000;
+}
