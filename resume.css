@@ -1,0 +1,11 @@
+.bi-grid{
+  display: grid;
+  grid-template-rows: 1;
+  grid-template-columns: 2;
+}
+
+.fbf-grid{
+  display: grid;
+  grid-template-rows: 2;
+  grid-template-columns: 2;
+}

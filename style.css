@@ -24,10 +24,8 @@ svg {
     margin: 0 auto;
 }
 
-.masthead .container{
+header.masthead{
   background-image: url("color_shot.jpg");
-  border-radius: 12px;
-  border: solid black 2px;
   background-size: cover;
 }
 
@@ -78,6 +76,12 @@ svg {
 
 .img-fluid{
   height: 15%;
+}
+
+span.skills
+{
+  background-color: #ff0000;
+  border: solid black 3px;
 }
 
 .modal-body{

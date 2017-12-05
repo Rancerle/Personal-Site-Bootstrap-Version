@@ -7,7 +7,8 @@ nav#mainNav.navbar.navbar-expand-lg.navbar-light.fixed-top{
   background: black;
 }
 
-header.masthead, hr.star-light.star-top::after, #mainNav .navbar-nav > li.nav-item > a.nav-link.active {
+hr.star-light.star-top::after, #mainNav .navbar-nav > li.nav-item > a.nav-link.active,
+#mainNav .navbar-nav > li.nav-item > a.nav-link:focus{
   background: #ff0000;
 }
 
@@ -23,4 +24,12 @@ hr.star-primary.star-mail::after{
 .btn-success{
   border-color: #ff0000;
   background: #ff0000;
+}
+
+#portfolioModal7 body#pagetop.modal-open{
+  background: #000000; /* Old browsers */
+  background: -moz-linear-gradient(-45deg, #000000 0%, #686868 50%, #aaaaaa 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(-45deg, #000000 0%,#686868 50%,#aaaaaa 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(135deg, #000000 0%,#686868 50%,#aaaaaa 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#aaaaaa',GradientType=1 ); /* IE6-9 fallback on horizontal gradient *
 }
