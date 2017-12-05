@@ -3,12 +3,17 @@ section#about.success, hr.star-light.star-me::after, .footer-above, .footer-belo
   background: #51484F;
 }
 
-nav#mainNav.navbar.navbar-expand-lg.navbar-light.fixed-top{
+nav#mainNav.navbar.navbar-expand-lg.navbar-light.fixed-top,
+footer{
   background: black;
 }
 
 hr.star-light.star-top::after, #mainNav .navbar-nav > li.nav-item > a.nav-link.active,
-#mainNav .navbar-nav > li.nav-item > a.nav-link:focus{
+#mainNav .navbar-nav > li.nav-item > a.nav-link:focus,
+a.nav-link.js-scroll-trigger.active,
+a.nav-link.js-scroll-trigger.active:hover,
+a.nav-link.js-scroll-trigger.active:focus
+{
   background: #ff0000;
 }
 
@@ -21,15 +26,31 @@ hr.star-primary.star-mail::after{
     color: #ff0000;
 }
 
-.btn-success{
+.btn-success, .btn.btn-lg.btn-outline.res, .btn.btn-lg.btn-outline.res:hover{
   border-color: #ff0000;
   background: #ff0000;
 }
 
-#portfolioModal7 body#pagetop.modal-open{
+.portfolio-modal.modal.fade#portfolioModal7{
   background: #000000; /* Old browsers */
   background: -moz-linear-gradient(-45deg, #000000 0%, #686868 50%, #aaaaaa 100%); /* FF3.6-15 */
   background: -webkit-linear-gradient(-45deg, #000000 0%,#686868 50%,#aaaaaa 100%); /* Chrome10-25,Safari5.1-6 */
   background: linear-gradient(135deg, #000000 0%,#686868 50%,#aaaaaa 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#aaaaaa',GradientType=1 ); /* IE6-9 fallback on horizontal gradient *
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#aaaaaa',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+  color:white;
+}
+
+#mainNav .navbar-nav > li.nav-item > a.nav-link.active:active, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:focus, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:hover {
+    color: #fff;
+    background: #ff0000;
+}
+
+footer .footer-above {
+    padding-top: 50px;
+    background-color: black;
+}
+
+footer .footer-below {
+    padding-top: 50px;
+    background-color: black;
 }

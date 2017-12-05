@@ -1,11 +1,22 @@
+*, *::after {
+  box-sizing: border-box; /*-- sets box math for all elements --*/
+}
+
 .bi-grid{
   display: grid;
-  grid-template-rows: 1;
-  grid-template-columns: 2;
+  grid-template-columns: (2, 2fr);
+  grid-template-rows: auto;
 }
 
 .fbf-grid{
   display: grid;
-  grid-template-rows: 2;
-  grid-template-columns: 2;
+  grid-template-columns: (2, 2fr);
+  grid-template-rows: auto;
+}
+
+.grid-item{
+  text-align: center;
+  position: relative;
+  border-radius: 12px;
+  align-content: center;
 }
