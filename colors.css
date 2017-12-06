@@ -31,7 +31,7 @@ hr.star-primary.star-mail::after{
   background: #ff0000;
 }
 
-.portfolio-modal.modal.fade#portfolioModal7{
+#portfolioModal7 div.modal-content{
   background: #000000; /* Old browsers */
   background: -moz-linear-gradient(-45deg, #000000 0%, #686868 50%, #aaaaaa 100%); /* FF3.6-15 */
   background: -webkit-linear-gradient(-45deg, #000000 0%,#686868 50%,#aaaaaa 100%); /* Chrome10-25,Safari5.1-6 */
