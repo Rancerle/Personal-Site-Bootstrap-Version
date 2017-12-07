@@ -3,6 +3,10 @@
   width: 30%;
 }
 
+div.modal-content p{
+  text-align: left;
+}
+
 html, body{
   height: 100%;
   font-weight: 800;

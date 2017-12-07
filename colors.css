@@ -8,6 +8,16 @@ footer{
   background: black;
 }
 
+#mainNav .navbar-nav > li.nav-item > a.nav-link.active:hover,
+#mainNav .navbar-nav > li.nav-item > a.nav-link:focus:hover{
+  background: #ff0000;
+  color: white;
+}
+
+#portfolio .portfolio-item .portfolio-link .caption {
+  background-color: rgba(81,72,79,.9);
+}
+
 hr.star-light.star-top::after, #mainNav .navbar-nav > li.nav-item > a.nav-link.active,
 #mainNav .navbar-nav > li.nav-item > a.nav-link:focus,
 a.nav-link.js-scroll-trigger.active,
@@ -15,11 +25,12 @@ a.nav-link.js-scroll-trigger.active:hover,
 a.nav-link.js-scroll-trigger.active:focus
 {
   background: #ff0000;
+  color: white;
 }
 
 section#portfolio, hr.star-primary.star-port::after, section#contact,
 hr.star-primary.star-mail::after{
-  background: #00ffff;
+  background: #006fa3;
 }
 
 #mainNav .navbar-nav li.nav-item a.nav-link:hover {
@@ -31,7 +42,12 @@ hr.star-primary.star-mail::after{
   background: #ff0000;
 }
 
-#portfolioModal7 div.modal-content{
+div.modal-content, div.modal-content hr.star-primary::after{
+  background-color: rgba(81,72,79,.9);
+  color: white;
+}
+
+#portfolioModal7 div.modal-content{ //resume modal
   background: #000000; /* Old browsers */
   background: -moz-linear-gradient(-45deg, #000000 0%, #686868 50%, #aaaaaa 100%); /* FF3.6-15 */
   background: -webkit-linear-gradient(-45deg, #000000 0%,#686868 50%,#aaaaaa 100%); /* Chrome10-25,Safari5.1-6 */
@@ -45,6 +61,10 @@ hr.star-primary.star-mail::after{
     background: #ff0000;
 }
 
+.btn-outline.active, .btn-outline:active, .btn-outline:focus, .btn-outline:hover {
+    color: #ff0000;
+  }
+
 footer .footer-above {
     padding-top: 50px;
     background-color: black;
@@ -53,4 +73,25 @@ footer .footer-above {
 footer .footer-below {
     padding-top: 50px;
     background-color: black;
+}
+
+.btn-success.focus, .btn-success:focus, .btn-success:active:focus{
+    border-color: #820b0b;
+    background-color: #ba1616;
+    box-shadow: 0 0 0 3px rgba(255,0,0,.5);
+}
+
+.btn-success:active:hover{
+  border-color: #820b0b;
+  background-color: #ba1616;
+}
+
+.btn.active, .btn:active{
+  background-color: #ba1616;
+  border-color: #820b0b;
+}
+
+.btn-success:hover {
+    background-color: #ba1616;
+    border-color: #820b0b;
 }
