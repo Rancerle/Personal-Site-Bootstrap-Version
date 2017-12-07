@@ -202,6 +202,6 @@ white-space: nowrap;
 
 @keyframes move {
 0%  { top: 0px; }
-20% { top: -42px; }
-40% { top: -84px; }
+33.33% { top: -36px; }
+66.66% { top: -72px; }
 }
