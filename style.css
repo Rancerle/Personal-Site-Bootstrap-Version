@@ -82,12 +82,6 @@ header.masthead{
   height: 15%;
 }
 
-span.skills
-{
-  background-color: #ff0000;
-  border: solid black 3px;
-}
-
 .modal-body{
   height: vmax;
 }
@@ -181,3 +175,33 @@ hr.star-primary.star-mail:after{
   color: white;
   border-color: #11866f;
   background-color: #128f76; }
+
+p.scrolltext{
+  overflow: hidden;
+  height: 24px;
+  width: 280px;
+  background-color: #ff0000;
+  border: solid black 3px;
+  text-align: center;
+  margin: auto;
+}
+
+b{
+  position: relative;
+  overflow: hidden;
+  height: 50px;
+}
+
+span.skills{
+position: relative;
+white-space: nowrap;
+-webkit-animation: move 5s;
+-webkit-animation-iteration-count: infinite;
+-webkit-animation-delay: 1s;
+}
+
+@keyframes move {
+0%  { top: 0px; }
+20% { top: -42px; }
+40% { top: -84px; }
+}
