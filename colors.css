@@ -95,3 +95,7 @@ footer .footer-below {
     background-color: #ba1616;
     border-color: #820b0b;
 }
+
+.portfolio-modal .close-modal{
+  color: white;
+}
